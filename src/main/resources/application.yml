@@ -1,0 +1,3 @@
+elasticsearch.uri : localhost:9200
+logging:
+  file.name: elasticsearch.log

@@ -5,6 +5,8 @@ import com.ztrzaska.elasticsearch.repository.PersonRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @RequiredArgsConstructor
 public class PersonService {
@@ -17,5 +19,9 @@ public class PersonService {
 
     public PersonDocument findById(final String id) {
         return personRepository.findById(id).orElse(null);
+    }
+
+    public List<PersonDocument> findByFirstName(final String firstName) {
+        return personRepository.findByFirstNameUsingCustomQuery(firstName);
     }
 }

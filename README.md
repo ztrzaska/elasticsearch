@@ -1,4 +1,4 @@
-# Elasticsearch with Spring Boot
+# Elasticsearch implementation with Spring Boot
 
 ### Reference Documentation
 

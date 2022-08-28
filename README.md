@@ -1,6 +1,6 @@
 # Elasticsearch implementation with Spring Boot
 
-### Reference Documentation
+### Getting Started
 
 Main purpose of project is using elasticsearch with spring boot. It has simple queries to database and rest endpoints. Logs are configured with logstash and can be seen via kibana.
 
@@ -40,6 +40,9 @@ logstash -f "D:\\logstash.conf"
 logstash -f "D:\\logstash-csv.conf"
 logstash -f "D:\\logstash-db.conf"
 ```
+
+
+### Reference Documentation
 
 For further reference, please consider the following sections:
 
